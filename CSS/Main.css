@@ -1,0 +1,30 @@
+html{
+    display: block;
+}
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    min-width: 400px;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+}
+a{
+    padding-right: 15px;
+}
+nav{
+    min-width: auto;
+    display: flex;
+    justify-content:flex-end;
+    padding: 6px;
+    height: 48px;
+    position: relative;
+    box-sizing: border-box;
+    font: 13px/27px Roboto,Arial,sans-serif;
+    
+}
+
