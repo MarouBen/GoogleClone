@@ -13,9 +13,6 @@ body{
     display: flex;
     flex-direction: column;
 }
-a{
-    padding-right: 15px;
-}
 nav{
     display: flex;
     justify-content:flex-end;
@@ -166,3 +163,59 @@ input{
     cursor: pointer;
 }
 
+#undesearch{
+    flex-grow: 1;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    display: block;
+    text-align: center;
+}
+#offered{
+    display: block;
+    text-align: center;
+    font-size: small;
+    margin-bottom: 24px;
+    color: #4d5156;
+}
+a{
+    padding-right: 15px;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:visited {
+    color: #681da8;
+}
+
+#bottom{
+    background: #f2f2f2;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    display: block;
+}
+#morocco{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+    display: block;
+}
+@media only screen and(max-width:1200px){
+    #bot{
+        justify-content: space-evenly;
+    }
+}
+#bot{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+#adc{
+    display: flex;
+}
+.adc{
+    color: #70757a;
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+}
