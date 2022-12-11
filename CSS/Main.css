@@ -25,6 +25,95 @@ nav{
     position: relative;
     box-sizing: border-box;
     font: 13px/27px Roboto,Arial,sans-serif;
-    
 }
 
+#GoogleLogo{
+    width: 272px;
+    margin: auto;
+}
+.GoogleLogo{
+    margin-top: 198px;
+    height:92px;
+}
+
+#searchbar{
+    padding:20px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    max-height: 160px;
+    max-width: 584px;
+    width: auto;
+    margin: auto;
+}
+
+#form{
+    margin: 0 auto;
+    padding-top: 6px;
+    width: auto;
+    max-width: 584px;
+    position: relative;
+}
+#input{
+    display: flex;
+    height: 44px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+}
+
+#inputElements{
+    display: flex;
+    flex: 1;
+    padding: 5px 8px 0 14px;
+}
+
+#searchIcon{
+    align-items: center;
+    padding-right: 13px;
+    height: 44px;
+    width: 20px;
+    width: 0 auto;
+}
+
+.searchIcon{
+    width: 100%;
+    height: 100%;
+    margin-top: 5px;
+    display: inline-block;
+    color: #9aa0a6;
+    fill: currentColor;
+}
+#inputText{
+    flex-wrap: wrap;
+    color: transparent;
+    flex: 100%;
+    white-space: pre;
+    height: 34px;
+    display: block;
+}
+.inputText{
+    background-color: transparent;
+    border: ;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    margin-top: -25px;
+    font-size: 16px;
+}
+
+input{
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    appearance: auto;
+    cursor: text;
+}

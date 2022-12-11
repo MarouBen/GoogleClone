@@ -16,9 +16,26 @@
             <button href="https://accounts.google.com/v3/signin/identifier?dsh=S1677842910%3A1670698767920211&continue=https%3A%2F%2Fwww.google.com%2F%3Fgws_rd%3Dssl&ec=GAZAmgQ&hl=fr&passive=true&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AeAAQh4qNQ578C5Ji_VNJC_OQ-2vkqg8GJBhfACE_HgPRTRJK5X161dzvX3N6LUkkbT9VYOuTtElSA">Connexion</button>
         </a>
     </nav>
-    <form action="https://google.com/search">
-        <input type="text" name="q">
-        <input type="submit" value="Google Search">
-    </form>
+    <div id="GoogleLogo">
+        <img class="GoogleLogo" src="Images/GoogleLogo.png">
+    </div>
+    <div id="searchbar">
+        <form id="form" action="https://google.com/search">
+            <div id="input">
+                <div id="inputElements">
+                    <div id="searchIcon">
+                        <svg class="searchIcon" focusable="false" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></pathd>
+                        </svg>
+                    </div>
+                    <div id="inputText">
+                        <input class="inputText" type="text" name="q">
+                    </div>
+                    
+                </div>
+            </div>
+            <input type="submit" value="Google Search">
+        </form>
+    </div>
 </body>
 </html>
