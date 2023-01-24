@@ -4,6 +4,7 @@ html{
 body{
     margin: 0;
     padding: 0;
+    height: 100vh;
     min-width: 400px;
     font-size: 14px;
     font-family: arial,sans-serif;
