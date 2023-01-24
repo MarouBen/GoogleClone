@@ -2,7 +2,6 @@ html{
     display: block;
 }
 body{
-    height: 100%;
     margin: 0;
     padding: 0;
     min-width: 400px;
@@ -10,8 +9,6 @@ body{
     font-family: arial,sans-serif;
     color: #202124;
     background: #fff;
-    display: flex;
-    flex-direction: column;
 }
 nav{
     display: flex;
@@ -22,7 +19,11 @@ nav{
     box-sizing: border-box;
     font: 13px/27px Roboto,Arial,sans-serif;
 }
-
+#flexgrow{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
 #GoogleLogo{
     width: 272px;
     margin: auto;
