@@ -273,3 +273,11 @@ a:hover{
         justify-content: space-evenly;
     }
 }
+#image_Logo{
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    position: absolute;
+    left: 915px;
+    bottom: 595px;
+    white-space: nowrap;
+}
