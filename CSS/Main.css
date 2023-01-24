@@ -58,6 +58,11 @@ nav{
     border: 1px solid #dfe1e5;
     border-radius: 24px;
 }
+#input:hover{
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+}
 
 #inputElements{
     margin: 0 auto;
@@ -209,6 +214,12 @@ a:hover{
     box-sizing: border-box;
     display: block;
 }
+.buttons:hover{
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
 #morocco{
     padding: 15px 30px;
     border-bottom: 1px solid #dadce0;
@@ -247,6 +258,10 @@ a:hover{
     font-weight: 500;
     font-size: 14px;
     border-radius: 4px;
+}
+#sign:hover{
+    background-color: #1b66c9;
+    box-shadow: 0 1px 3px 1px rgb(66 64 67 / 15%), 0 1px 2px 0 rgb(60 64 67 / 30%);
 }
 #apps{
     padding: 15px;
