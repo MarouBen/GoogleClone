@@ -119,4 +119,5 @@ span{
     font-family: monospace;
     font-size: 11px;
     white-space: pre;
+    display: block;
 }
