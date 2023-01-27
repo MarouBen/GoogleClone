@@ -29,6 +29,7 @@
     min-width: 200px;
     width: 96%;
     margin: 40px 2% 0 45px;
+    flex-grow: 1;
 }
 .title_1{
     display: inline-block;
@@ -148,4 +149,22 @@ span{
     background-image: -webkit-linear-gradient(top,#4d90fe,#357ae8);
     border: 1px solid #2f5bb7;
     border-image: initial;
+}
+#link_C{
+    font-size: 13px;
+    line-height: 18px;
+    margin-bottom: 90px;
+}
+#ya_dont{
+    display: inline-block;
+    min-width: 167px;
+    width: 16%;
+    font-size: 16px;
+    min-height: 42px;
+    font-weight: 500;
+    color: #333;
+    vertical-align: middle;
+}
+#link{
+    color:#0000EE;
 }
