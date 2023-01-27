@@ -1,4 +1,6 @@
+
 #floatright{
+    padding-top: 5px;
     width: 100%;
     justify-content: space-between;
 }
@@ -19,4 +21,102 @@
     color: #d93925;
     font-size: 20px;
     margin: 29px 35px;
+}
+#line{
+    border-bottom: 1px solid #ebebeb;
+}
+#form_Container{
+    max-width: 1140px;
+    min-width: 200px;
+    width: 96%;
+    margin: 40px 2% 0 45px;
+}
+.title_1{
+    display: inline-block;
+    min-width: 167px;
+    width: 16%;
+    font-size: 16px;
+    min-height: 42px;
+    font-weight: 500;
+    color: #333;
+    vertical-align: middle;
+}
+.fields{
+    display: flex;
+}
+.C1{
+    display: inline-block;
+    min-width: 167px;
+    width: 16%;
+    height: 42px;
+    color: #222;
+    font-size: 13px;
+    line-height: 16px;
+    vertical-align: middle;
+}
+.C2{
+    display: inline-block;
+    min-width: 167px;
+    min-height: 41px;
+    vertical-align: middle;
+    width: 50%;
+}
+.C3{
+    display: inline-block;
+    width: 32%;
+    min-width: 160px;
+    margin: 0 0 8px 1%;
+    color: #555;
+    font-size: 11px;
+    padding-left: 5px;
+    vertical-align: middle;
+    position: relative;
+}
+#C3_A{
+    display: inline-block;
+    width: 33%;
+    font-size: 13px;
+    font-weight: 700;
+    color: #777;
+    padding-left: 5px;
+    vertical-align: middle;
+}
+.input_A1{
+    width: 100%;
+    text-align: left;
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+}
+#text{
+    display: flex;
+    margin:8px 0 0 10.323px;
+    padding-left: 5px;
+}
+#text2{
+    display: flex;
+    margin-top: 8px;
+}
+#C2_a{
+    display: flex;
+}
+#to{
+    display: table-cell;
+    width: 80px;
+    margin: auto;
+    padding-right: 6px;
+    padding-left: 6px;
+    text-align: center;
+    font-size: 13px;
+    color: #202124;
+    height: 28px;
+}
+span{
+    color: #666;
+    font-family: monospace;
+    font-size: 11px;
+    white-space: pre;
 }

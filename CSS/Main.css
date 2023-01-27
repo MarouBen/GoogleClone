@@ -20,6 +20,19 @@ nav{
     box-sizing: border-box;
     font: 13px/27px Roboto,Arial,sans-serif;
 }
+input{
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    appearance: auto;
+    cursor: text;
+}
 #floatright{
     display: flex;
     align-items: center;
@@ -28,6 +41,12 @@ nav{
     display: flex;
     flex-direction: column;
     height: 100%;
+}
+#apps{
+    opacity:0.6;
+    padding: 17px 15px;
+    height:26px;
+    width: 26px;
 }
 #GoogleLogo{
     width: 272px;
@@ -54,14 +73,14 @@ nav{
     margin: 0 auto;
     padding-top: 6px;
 }
-#input{
+#input_S{
     display: block;
     flex: 1;
     height: 44px;
     border: 1px solid #dfe1e5;
     border-radius: 24px;
 }
-#input:hover{
+#input_S:hover{
     background-color: #fff;
     box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
     border-color: rgba(223,225,229,0);
@@ -117,19 +136,7 @@ nav{
     width: 100%;
 }
 
-input{
-    writing-mode: horizontal-tb !important;
-    text-rendering: auto;
-    letter-spacing: normal;
-    word-spacing: normal;
-    line-height: normal;
-    text-transform: none;
-    text-indent: 0px;
-    text-shadow: none;
-    text-align: start;
-    appearance: auto;
-    cursor: text;
-}
+
 #VCIcon{
     display: flex;
     flex: 0 0 auto;
@@ -267,11 +274,7 @@ a:hover{
     background-color: #1b66c9;
     box-shadow: 0 1px 3px 1px rgb(66 64 67 / 15%), 0 1px 2px 0 rgb(60 64 67 / 30%);
 }
-#apps{
-    padding: 15px;
-    height:26px;
-    width: 26px;
-}
+
 @media only screen and (max-width: 1200px){
     #bot{
         justify-content: space-evenly;
