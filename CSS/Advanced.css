@@ -1,0 +1,22 @@
+#floatright{
+    width: 100%;
+    justify-content: space-between;
+}
+#home{
+    display: flex;
+    padding-top:15px;
+    align-items: center;
+}
+#Home{
+    padding-left: 12px;
+    height: 27px;
+    width: 83px;
+}
+#appli{
+    display: flex;
+}
+#appbar{
+    color: #d93925;
+    font-size: 20px;
+    margin: 29px 35px;
+}

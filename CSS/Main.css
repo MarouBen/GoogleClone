@@ -12,14 +12,17 @@ body{
     background: #fff;
 }
 nav{
-    align-items: center;
     display: flex;
-    justify-content:flex-end;
+    justify-content: end;
+    align-items: center;
     padding: 6px;
     height:60px;
-    position: relative;
     box-sizing: border-box;
     font: 13px/27px Roboto,Arial,sans-serif;
+}
+#floatright{
+    display: flex;
+    align-items: center;
 }
 #flexgrow{
     display: flex;
@@ -202,6 +205,7 @@ a{
     color:#5f6368;
     text-decoration: none;
     cursor: pointer;
+    align-items: center;
 }
 
 a:hover{
