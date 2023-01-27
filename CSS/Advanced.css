@@ -128,3 +128,24 @@ span{
     white-space: pre;
     display: contents;
 }
+#A_Search{
+    height: 30px;
+    width: 120px;
+    float: right;
+    margin: 10px 0;
+    padding: 0 12px;
+    background-color: #4d90fe;
+    background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+    border: 1px solid #3079ed;
+    color: #fff;
+    font-size: 11px;
+    font-weight: bold;
+    border-radius: 2px;
+    cursor: default;
+}
+#A_Search:hover{
+    background-color: #357ae8;
+    background-image: -webkit-linear-gradient(top,#4d90fe,#357ae8);
+    border: 1px solid #2f5bb7;
+    border-image: initial;
+}

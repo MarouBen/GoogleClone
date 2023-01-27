@@ -183,6 +183,12 @@ input{
     text-align: center;
     cursor: pointer;
 }
+.buttons:hover{
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
 
 #undersearch{
     flex-grow: 1;
@@ -225,12 +231,7 @@ a:hover{
     box-sizing: border-box;
     display: block;
 }
-.buttons:hover{
-    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
-    background-color: #f8f9fa;
-    border: 1px solid #dadce0;
-    color: #202124;
-}
+
 #morocco{
     padding: 15px 30px;
     border-bottom: 1px solid #dadce0;
