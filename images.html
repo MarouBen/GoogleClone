@@ -25,8 +25,9 @@
             <img class="GoogleLogo" src="Images/GoogleLogo.png">
             <span id="image_Logo">images</span>
         </div>
-        <div id="searchbar">
+        <div id="searchbar" style="padding-top: 0;">
             <form id="form" action="https://google.com/search" method="get">
+                
                 <div id="input_S">
                     <div id="inputElements">
                         <div id="searchIcon">
@@ -35,7 +36,8 @@
                             </svg>
                         </div>
                         <div id="inputText">
-                            <input class="inputText" type="text" name="q">
+                            <input type="hidden" name="tbm" value="isch">
+                            <input class="inputText" type="text" name="q" style=" position: relative;bottom: 15px;">
                         </div>
                         <div id="VCIcon">
                             <div class="VCIcon" >
